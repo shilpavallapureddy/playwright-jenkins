@@ -1,0 +1,60 @@
+
+//installation
+npm init playwright@latest
+
+//report 
+npx playwright show-report
+
+//commandline run
+npx playwright test
+
+//UI
+npx playwright test --ui
+
+//headed
+npx playwright test --headed
+
+
+Commands to be executed: for updates
+1.npm install playwright --save-dev//version should be same
+
+2.npm install @playwright/test --save-dev //version should be same
+
+3.npm install typescript --save-dev
+
+
+ 
+/* Language and Environment */
+    "target": "es2016", replace target with "target": "ES6", 
+    "module": "commonjs",  should be commonjs
+
+playwright test runner >>setting extension search for Playwright Test for VSCode and install it
+
+npm i --save-dev @types/jest
+npm install -g --save-dev jest
+npm install  jest
+npm install --save-dev jest ts-jest typescript
+npm i -g jest-cli
+npm install -D jest jest-playwright-preset playwright
+
+npm i allure-jest -D
+npm install jest -g 
+npm i allure-jasmine -D
+open command prompt and install 
+npm i allure-commandline -g
+npm install jest -g --save-dev
+npm i jasmine -D
+npm install --save-dev jest-allure
+allure serve
+
+if want to chnage the  config
+npx playwright test --config=mytesst/my.config.ts
+
+npx playwright show-trace trace.zip
+
+npm install clipboardy
+
+npm i xlsx
+
+npm i dotenv --save
+npm install --save-dev "cross-env"

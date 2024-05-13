@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+        "paths": {
+            "@pages/*": [
+                "page/*"
+            ],
+            "@fixtures/*": [
+                "fixtures/*"
+            ],
+            "@files/*": [
+                "uploadFolder/*"
+            ]
+        }
+  }
+}

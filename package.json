@@ -1,0 +1,28 @@
+{
+  "name": "typescriptfromscratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "npx playwright test --reporter=html && npx playwright show-report",
+    "debug": "npx playwright test --debug",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.15.1",
+    "playwright": "^1.43.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "clipboardy": "^4.0.0",
+    "tesseract.js": "^5.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
